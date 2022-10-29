@@ -7,9 +7,62 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    color: whitesmoke;
 }
 
 body {
     font-family: "poppins", sans-serif;
+}
+
+.row>* {
+    border: 1px solid red
+}
+
+/* nav */
+nav {
+    height: 80px;
+    line-height: 80px;
+    position: fixed;
+    background-color: black;
+    z-index: 2;
+}
+
+.logo {
+    font-size: 40px;
+    font-weight: 600;
     color: whitesmoke;
+    cursor: pointer;
+}
+
+b {
+    font-size: 60px;
+    color: rgb(222, 249, 20);
+}
+
+.navItems {
+    margin-bottom: 0;
+}
+
+.navItems li {
+    margin: 0 25px;
+}
+
+.navItems li a {
+    font-size: 20px;
+    letter-spacing: 3px;
+    color: whitesmoke;
+}
+
+.navItems li:hover a {
+    color: rgb(222, 249, 20);
+}
+
+.social a:hover i {
+    color: rgb(222, 249, 20);
+    font-size: 40px;
+}
+
+.social a {
+    margin: 0 15px;
+    font-size: 25px;
 }
