@@ -14,8 +14,13 @@ body {
     font-family: "poppins", sans-serif;
 }
 
-.row>* {
+/* .row>* {
     border: 1px solid red
+} */
+
+/* utilities */
+.whitesmoke {
+    color: whitesmoke;
 }
 
 /* nav */
@@ -82,8 +87,8 @@ main {
 }
 
 .wrapper {
-    left: 15%;
     top: 35%;
+    left: 15%;
 }
 
 #home span {
@@ -115,6 +120,74 @@ main {
     justify-content: center;
     align-items: flex-end;
 }
+
+/* about me */
+#aboutMe {
+    height: 100vh;
+    padding-left: 60px;
+}
+
+.text h1 {
+    font-size: 100px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.skills ul {
+    display: flex;
+    row-gap: 5px;
+}
+
+.skills ul li {
+    margin: 0 10px;
+}
+
+.skills ul li img {
+    width: 40px;
+}
+
+.logo {
+    width: 60px !important;
+}
+
+.contacts ul li a:hover {
+    color: rgb(222, 249, 20);
+}
+
+.skills,
+.contacts {
+    padding-top: 15px;
+}
+
+.text p,
+.skills ul,
+.contacts ul {
+    padding-left: 30px;
+}
+
+.button {
+    height: 50px;
+    padding: 10px;
+    border: none;
+    outline: none;
+    background-color: rgb(53, 49, 49);
+    border-radius: 10px;
+    overflow: hidden;
+    font-size: 16px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: rgb(222, 249, 20);
+
+}
+
+.button:hover a,
+.button:hover i {
+    color: black;
+}
+
 
 
 
