@@ -51,17 +51,19 @@
                 <div class="row">
                     <div class="col-12">
                         <div class="wrapper position-absolute w-50">
+                            <!-- my intro -->
                             <span>
                                 Hi, I'm Davide.<br>
                                 a creative<span class="dynamicText position-relative"> Dev</span><br>
                                 based in Rome.
                             </span>
                         </div>
+                        <!-- icon -->
                         <div class="down d-flex justify-content-center align-items-end">
                             <span>
-                                <i class="fa-solid fa-angle-down fs-30"></i>
-                                <i class="fa-solid fa-angle-down fs-30"></i>
-                                <i class="fa-solid fa-angle-down fs-30"></i>
+                                <i class="fa-solid fa-angle-down fs_50"></i>
+                                <i class="fa-solid fa-angle-down fs_50"></i>
+                                <i class="fa-solid fa-angle-down fs_50"></i>
                             </span>
                         </div>
                     </div>
@@ -71,7 +73,7 @@
         <!-- SECTION ABOUT ME -->
         <section id="aboutMe" class="d-flex justify-content-center align-items-center">
             <div class="container-fluid">
-                <div class="row align-items-center">
+                <div class="row align-items-center m_100">
                     <!-- img profile -->
                     <div class="col-6 text-center">
                         <img src="./assets/img/Me.png" alt="me" class="profile">
@@ -111,34 +113,130 @@
                                 <h2>Contacts</h2>
                                 <ul class="list-unstyled">
                                     <li>
-                                        <i class="fa-solid fa-link"></i>
-                                        Mail ~ <a href="mailto:davide.pulci@gmail.com"
+                                        <i class="fa-regular fa-envelope"></i>
+                                        email -> <a href="mailto:davide.pulci@gmail.com"
                                             class="text-decoration-none whitesmoke">davide.pulci@gmail.com</a>
                                     </li>
                                     <li>
-                                        <i class="fa-solid fa-link"></i>
-                                        Phone ~ <a href="tel:3454993648" class="text-decoration-none whitesmoke">+39 345
-                                            4993648</a>
+                                        <i class="fa-solid fa-mobile-screen-button"></i>
+                                        phone -> <a href="tel:3454993648" class="text-decoration-none whitesmoke">+39
+                                            345 4993648</a>
                                     </li>
                                 </ul>
                             </div>
                             <!-- button cv -->
                             <div class="col">
-                                <button type="button" class="button d-flex align-items-center mt-3">
-                                    <span class="button-icon">
-                                        <a href="https://document-export.canva.com/Y08e8/DAFDxlY08e8/914/thumbnail/0001.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAQYCGKMUHWDTJW6UD%2F20221027%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20221027T131823Z&X-Amz-Expires=89733&X-Amz-Signature=eec0980e6afe888fb5b68feccb436246560d62133491916aa68918e5dcc949ca&X-Amz-SignedHeaders=host&response-expires=Fri%2C%2028%20Oct%202022%2014%3A13%3A56%20GMT"
-                                            class="text-decoration-none whitesmoke"><i class="fa-solid fa-rocket"></i>
-                                            WATCH MY CV</a>
-                                    </span>
-                                </button>
+                                <div class="button d-flex justify-content-center align-items-center mt-3">
+                                    <a href="https://www.canva.com/design/DAFDxlY08e8/nTXgdXfwkYDUFu1l2VrIBA/view?utm_content=DAFDxlY08e8&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
+                                        class="text-decoration-none whitesmoke"><i class="fa-solid fa-rocket"></i>
+                                        Watch my CV
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- icon -->
+                <div class="down2 d-flex justify-content-center">
+                    <span>
+                        <i class="fa-solid fa-angle-down fs_50"></i>
+                        <i class="fa-solid fa-angle-down fs_50"></i>
+                        <i class="fa-solid fa-angle-down fs_50"></i>
+                    </span>
+                </div>
+            </div>
+        </section>
+        <!-- SECTION PROJECT -->
+        <section id="projects">
+            <div class="container-fluid">
+                <div class="row d-flex flex-column">
+                    <div class="col-11 offset-1">
+                        <h2>My projects<b>.</b></h2>
+                    </div>
+                    <!-- my projects -->
+                    <div class="col">
+                        <div class="row container-project">
+                            <div class="col d-flex flex-column justify-content-center align-items-end p_40">
+                                <h3>Featured project</h3>
+                                <h2 class="text-uppercase">Boolivery</h2>
+                                <p>eCommerce</p>
+                                <div class="info text-end">
+                                    <p>
+                                        Food Delivery Website. An eCommerce built both front-end and back-end side.
+                                        A registered user can modify data of their
+                                        restaurant, thanks to an easy back-office dashboard that is in communication
+                                        with a
+                                        relational database.
+                                    </p>
+                                </div>
+                                <ul class="list-unstyled d-flex">
+                                    <li>Html</li>
+                                    <li>Javascript</li>
+                                    <li>Scss</li>
+                                    <li>Vue.Js</li>
+                                    <li>Laravel</li>
+                                    <li>MySQL</li>
+                                </ul>
+                            </div>
+                            <div class="col">
+                                <img src="assets/img/Boolivery.png" alt="Boolivery">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="row container-project ">
+                            <div class="col d-flex justify-content-end">
+                                <img src="assets/img/Avada-fitness.png" alt="Avada-fitness">
+                            </div>
+                            <div class="col d-flex flex-column justify-content-center p_40">
+                                <h3>Featured project</h3>
+                                <h2 class="text-uppercase">Avada Fitness</h2>
+                                <p>Website</p>
+                                <div class="info">
+                                    <p>
+                                        A simply Static website. Received the given instruction about how the website
+                                        should look like. I tried to satisfy all the requests.
+                                    </p>
+                                </div>
+                                <ul class="list-unstyled d-flex">
+                                    <li>Html</li>
+                                    <li>Scss</li>
+                                    <li>Vue.Js</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="row container-project">
+                            <div class="col d-flex flex-column justify-content-center align-items-end p_40">
+                                <h3>Featured project</h3>
+                                <h2 class="text-uppercase">Boolzapp</h2>
+                                <p>webApp</p>
+                                <div class="info text-end">
+                                    <p>
+                                        One of my first project practicing with vue.js. with a full responsive
+                                        interface.
+                                    </p>
+                                </div>
+                                <ul class="list-unstyled d-flex">
+                                    <li>Html</li>
+                                    <li>Css</li>
+                                    <li>Javascript</li>
+                                    <li>Vue.Js</li>
+                                </ul>
+                            </div>
+                            <div class="col">
+                                <img src="assets/img/Boolzapp.png" alt="Boolzapp">
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        <section id="projects"></section>
     </main>
+    <footer>
+
+    </footer>
 </body>
 
 </html>

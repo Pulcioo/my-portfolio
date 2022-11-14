@@ -14,13 +14,25 @@ body {
     font-family: "poppins", sans-serif;
 }
 
-/* .row>* {
+/* .row>* { 
     border: 1px solid red
 } */
 
 /* utilities */
 .whitesmoke {
     color: whitesmoke;
+}
+
+.m_100 {
+    margin: 100px 0;
+}
+
+.fs_50 {
+    font-size: 50px;
+}
+
+.p_40 {
+    padding: 0 40px;
 }
 
 /* nav */
@@ -119,10 +131,6 @@ main {
 }
 
 /* about me */
-#aboutMe {
-    height: 100vh;
-}
-
 .profile {
     width: 80%;
 }
@@ -161,10 +169,17 @@ main {
 .text p,
 .skills ul,
 .contacts ul {
-    padding-left: 30px;
+    padding: 0 30px;
+}
+
+.text h2,
+.skills h2,
+.contacts h2 {
+    color: rgb(222, 249, 20);
 }
 
 .button {
+    width: 180px;
     height: 50px;
     padding: 10px;
     border: none;
@@ -187,13 +202,53 @@ main {
     color: black;
 }
 
+#aboutMe .down2 span {
+    font-size: 4vw;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+/* projects */
+#projects {
+    padding: 60px 0;
+}
+
+#projects h2 {
+    font-size: 60px;
+    margin: 10px 0;
+}
+
+.container-project {
+    margin: 65px 0;
+}
+
+.container-project h3,
+.container-project p {
+    color: rgb(222, 249, 20);
+}
+
+.container-project ul li {
+    margin: 0 8px;
+}
+
+.container-project .col img {
+    height: 300px;
+    width: 500px;
+}
+
+.info {
+    background: rgba(189, 211, 29, 0.8);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.info>p {
+    color: whitesmoke;
+    margin: 0;
+}
 
 
-
-
-
-
-
+/* text animation */
 @keyframes typing {
 
     40%,
