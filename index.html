@@ -26,20 +26,14 @@
                     <!-- LOGO -->
                     <span class="logo">FOLIO <b>.</b></span>
                 </div>
-                <div class="col-5">
+                <div class="col">
                     <!-- NAV ITEMS -->
-                    <ul class="navItems d-flex list-unstyled">
+                    <ul class="navItems d-flex justify-content-end list-unstyled">
                         <li><a href="#home" class="text-decoration-none">Home</a></li>
                         <li><a href="#aboutMe" class="text-decoration-none">About me</a></li>
+                        <li><a href="#skills" class="text-decoration-none">Skills</a></li>
                         <li><a href="#projects" class="text-decoration-none">Projects</a></li>
                     </ul>
-                </div>
-                <div class="col social text-center">
-                    <!-- SOCIAL LOGO -->
-                    <a href="https://www.linkedin.com/in/davide-pulci-582718242/"><i
-                            class="fa-brands fa-linkedin"></i></a>
-                    <a href="https://github.com/Pulcioo"><i class="fa-brands fa-github"></i></a>
-                    <a href="https://www.instagram.com/_pulcio/?hl=en"><i class="fa-brands fa-instagram"></i></a>
                 </div>
             </div>
         </div>
@@ -73,12 +67,12 @@
         <!-- SECTION ABOUT ME -->
         <section id="aboutMe" class="d-flex justify-content-center align-items-center">
             <div class="container-fluid">
-                <div class="row align-items-center m_100">
+                <div class="row align-items-center m_70 profile">
                     <!-- img profile -->
-                    <div class="col-6 text-center">
+                    <div class="col-6 text-center img_container">
                         <img src="./assets/img/Me.png" alt="me" class="profile">
                     </div>
-                    <div class="col-6">
+                    <div class="col-6 text_container">
                         <div class="row flex-column">
                             <!-- about me -->
                             <div class="col text">
@@ -91,22 +85,6 @@
                                     been a curious person who never stops learning! I love Travelling, Sports, and
                                     Design.
                                 </p>
-                            </div>
-                            <!-- skills -->
-                            <div class="col skills">
-                                <h2>Skills</h2>
-                                <ul class="list-unstyled d-flex">
-                                    <li><img src="./assets/img/logo-html.svg" alt="html-logo"></li>
-                                    <li><img src="./assets/img/css-logo.png" alt="css-logo"></li>
-                                    <li><img src="./assets/img/javascript-1.svg" alt="javascript-logo">
-                                    </li>
-                                    <li><img src="./assets/img/bootstrap-4.svg" alt="bootstrap-logo"></li>
-                                    <li><img src="./assets/img/sass.png" alt="sass-logo"></li>
-                                    <li><img src="./assets/img/vue-logo.png" alt="vue-logo"></li>
-                                    <li><img src="./assets/img/PHP-Logo.png" alt="php-logo" class="logo"></li>
-                                    <li><img src="./assets/img/laravel-1.svg" alt="laravel-logo"></li>
-                                    <li><img src="./assets/img/MySQL-Logo.png" alt="mysql-logo" class="logo"></li>
-                                </ul>
                             </div>
                             <!-- contacts -->
                             <div class="col contacts">
@@ -125,7 +103,7 @@
                                 </ul>
                             </div>
                             <!-- button cv -->
-                            <div class="col">
+                            <div class="col button_container">
                                 <div class="button d-flex justify-content-center align-items-center mt-3">
                                     <a href="https://www.canva.com/design/DAFDxlY08e8/nTXgdXfwkYDUFu1l2VrIBA/view?utm_content=DAFDxlY08e8&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
                                         class="text-decoration-none whitesmoke"><i class="fa-solid fa-rocket"></i>
@@ -146,97 +124,58 @@
                 </div>
             </div>
         </section>
-        <!-- SECTION PROJECT -->
-        <section id="projects">
+        <!-- SECTION SKILLS -->
+        <section id="skills">
             <div class="container-fluid">
+                <div class="row">
+                    <div class="col">
+                        <h2>Skills</h2>
+                    </div>
+                </div>
                 <div class="row d-flex flex-column">
-                    <div class="col-11 offset-1">
-                        <h2>My projects<b>.</b></h2>
-                    </div>
-                    <!-- my projects -->
-                    <div class="col">
-                        <div class="row container-project">
-                            <div class="col d-flex flex-column justify-content-center align-items-end p_40">
-                                <h3>Featured project</h3>
-                                <h2 class="text-uppercase">Boolivery</h2>
-                                <p>eCommerce</p>
-                                <div class="info text-end">
-                                    <p>
-                                        Food Delivery Website. An eCommerce built both front-end and back-end side.
-                                        A registered user can modify data of their
-                                        restaurant, thanks to an easy back-office dashboard that is in communication
-                                        with a
-                                        relational database.
-                                    </p>
-                                </div>
-                                <ul class="list-unstyled d-flex">
-                                    <li>Html</li>
-                                    <li>Javascript</li>
-                                    <li>Scss</li>
-                                    <li>Vue.Js</li>
-                                    <li>Laravel</li>
-                                    <li>MySQL</li>
-                                </ul>
-                            </div>
-                            <div class="col">
-                                <img src="assets/img/Boolivery.png" alt="Boolivery">
-                            </div>
+                    <div class="col d-flex justify-content-center">
+                        <div class="card d-flex justify-content-center align-items-center">
+                            <img src="./assets/img/logo-html.svg" alt="html-logo">
+                        </div>
+                        <div class="card d-flex justify-content-center align-items-center">
+                            <img src="./assets/img/css-logo.png" alt="css-logo">
+                        </div>
+                        <div class="card d-flex justify-content-center align-items-center">
+                            <img src="./assets/img/javascript-1.svg" alt="javascript-logo">
+                        </div>
+                        <div class="card d-flex justify-content-center align-items-center">
+                            <img src="./assets/img/bootstrap-4.svg" alt="bootstrap-logo">
+                        </div>
+                        <div class="card d-flex justify-content-center align-items-center">
+                            <img src="./assets/img/sass.png" alt="sass-logo">
                         </div>
                     </div>
-                    <div class="col">
-                        <div class="row container-project ">
-                            <div class="col d-flex justify-content-end">
-                                <img src="assets/img/Avada-fitness.png" alt="Avada-fitness">
-                            </div>
-                            <div class="col d-flex flex-column justify-content-center p_40">
-                                <h3>Featured project</h3>
-                                <h2 class="text-uppercase">Avada Fitness</h2>
-                                <p>Website</p>
-                                <div class="info">
-                                    <p>
-                                        A simply Static website. Received the given instruction about how the website
-                                        should look like. I tried to satisfy all the requests.
-                                    </p>
-                                </div>
-                                <ul class="list-unstyled d-flex">
-                                    <li>Html</li>
-                                    <li>Scss</li>
-                                    <li>Vue.Js</li>
-                                </ul>
-                            </div>
+                    <div class="col d-flex justify-content-center">
+                        <div class="card d-flex justify-content-center align-items-center">
+                            <img src="./assets/img/vue-logo.png" alt="vue-logo">
                         </div>
-                    </div>
-                    <div class="col">
-                        <div class="row container-project">
-                            <div class="col d-flex flex-column justify-content-center align-items-end p_40">
-                                <h3>Featured project</h3>
-                                <h2 class="text-uppercase">Boolzapp</h2>
-                                <p>webApp</p>
-                                <div class="info text-end">
-                                    <p>
-                                        One of my first project practicing with vue.js. with a full responsive
-                                        interface.
-                                    </p>
-                                </div>
-                                <ul class="list-unstyled d-flex">
-                                    <li>Html</li>
-                                    <li>Css</li>
-                                    <li>Javascript</li>
-                                    <li>Vue.Js</li>
-                                </ul>
-                            </div>
-                            <div class="col">
-                                <img src="assets/img/Boolzapp.png" alt="Boolzapp">
-                            </div>
+                        <div class="card d-flex justify-content-center align-items-center">
+                            <img src="./assets/img/PHP-Logo.png" alt="php-logo" class="logo">
+                        </div>
+                        <div class="card d-flex justify-content-center align-items-center">
+                            <img src="./assets/img/laravel-1.svg" alt="laravel-logo">
+                        </div>
+                        <div class="card d-flex justify-content-center align-items-center">
+                            <img src="./assets/img/MySQL-Logo.png" alt="mysql-logo" class="logo">
                         </div>
                     </div>
                 </div>
             </div>
         </section>
+        <!-- SECTION PROJECT -->
+        <section id="projects">
+
+        </section>
     </main>
     <footer>
 
     </footer>
+    <script src="assets/main.js" charset="utf-8"></script>
 </body>
 
 </html>

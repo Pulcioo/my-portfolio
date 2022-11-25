@@ -11,20 +11,21 @@
 }
 
 body {
-    font-family: "poppins", sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
-/* .row>* { 
+/*
+.row>* {
     border: 1px solid red
-} */
+}
 
 /* utilities */
 .whitesmoke {
     color: whitesmoke;
 }
 
-.m_100 {
-    margin: 100px 0;
+.m_70 {
+    margin: 70px auto;
 }
 
 .fs_50 {
@@ -74,14 +75,8 @@ b {
     color: rgb(222, 249, 20);
 }
 
-.social a:hover i {
-    color: rgb(222, 249, 20);
-    font-size: 40px;
-}
-
-.social a {
-    margin: 0 15px;
-    font-size: 25px;
+.navItems li:hover {
+    border-bottom: 2px solid rgb(222, 249, 20);
 }
 
 /* home */
@@ -141,41 +136,23 @@ main {
     margin-bottom: 15px;
 }
 
-.skills ul {
-    row-gap: 5px;
-}
-
-.skills ul li {
-    margin: 0 10px;
-}
-
-.skills ul li img {
-    width: 40px;
-}
-
-.logo {
-    width: 60px !important;
-}
-
 .contacts ul li a:hover {
     color: rgb(222, 249, 20);
 }
 
-.skills,
 .contacts {
     padding-top: 10px;
 }
 
 .text p,
-.skills ul,
 .contacts ul {
     padding: 0 30px;
 }
 
 .text h2,
-.skills h2,
 .contacts h2 {
     color: rgb(222, 249, 20);
+    font-size: 25px;
 }
 
 .button {
@@ -208,44 +185,34 @@ main {
     letter-spacing: 1px;
 }
 
-/* projects */
-#projects {
-    padding: 60px 0;
+/* skills */
+#skills h2 {
+    font-size: 50px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-align: center;
+    margin-top: 70px;
 }
 
-#projects h2 {
-    font-size: 60px;
-    margin: 10px 0;
+.card {
+    width: 160px;
+    height: 140px;
+    background: rgb(53, 49, 49);
+    margin: 50px 20px;
 }
 
-.container-project {
-    margin: 65px 0;
-}
-
-.container-project h3,
-.container-project p {
-    color: rgb(222, 249, 20);
-}
-
-.container-project ul li {
-    margin: 0 8px;
-}
-
-.container-project .col img {
-    height: 300px;
-    width: 500px;
-}
-
-.info {
-    background: rgba(189, 211, 29, 0.8);
+.card img {
+    width: 80%;
     padding: 10px;
-    border-radius: 5px;
+    transition: all 0.8s ease;
 }
 
-.info>p {
-    color: whitesmoke;
-    margin: 0;
+.card img:hover {
+    width: 120%;
 }
+
+/* projects */
+
 
 
 /* text animation */
@@ -260,3 +227,6 @@ main {
         left: 0;
     }
 }
+
+/* media-queries */
+@media screen and (max-width: 1000px) {}
