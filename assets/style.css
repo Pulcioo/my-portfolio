@@ -1,7 +1,7 @@
 /* GENERAL */
 
 /* google font */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&display=swap');
 
 * {
     box-sizing: border-box;
@@ -11,7 +11,7 @@
 }
 
 body {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 /*
@@ -187,6 +187,7 @@ main {
 
 /* skills */
 #skills h2 {
+    font-family: 'Montserrat', sans-serif;
     font-size: 50px;
     font-weight: 600;
     letter-spacing: 2px;
