@@ -246,8 +246,20 @@ main {
     transition: transform .1s ease;
 }
 
+.social span {
+    font-size: small;
+}
+
+.social a {
+    margin: 0 5px;
+}
+
 .project_card:hover {
     transform: scale(1.1);
+}
+
+#projects i:hover {
+    color: rgb(222, 249, 20);
 }
 
 
