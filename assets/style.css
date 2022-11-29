@@ -36,6 +36,10 @@ body {
     padding: 0 40px;
 }
 
+.p_130 {
+    padding: 0 130px;
+}
+
 /* nav */
 nav {
     height: 80px;
@@ -187,11 +191,9 @@ main {
 
 /* skills */
 #skills h2 {
-    font-family: 'Montserrat', sans-serif;
     font-size: 50px;
     font-weight: 600;
     letter-spacing: 2px;
-    text-align: center;
     margin-top: 70px;
 }
 
@@ -219,7 +221,34 @@ main {
 }
 
 /* projects */
+#projects h2 {
+    font-size: 50px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
 
+.project_card h3 {
+    margin-top: 8px;
+    margin-bottom: 0px;
+}
+
+.project_card h3 {
+    color: rgb(222, 249, 20);
+}
+
+.project_card ul li {
+    margin-right: 8px;
+}
+
+.project_card {
+    transition: transform .1s ease;
+}
+
+.project_card:hover {
+    transform: scale(1.1);
+}
 
 
 /* text animation */
