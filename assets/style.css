@@ -277,4 +277,48 @@ main {
 }
 
 /* media-queries */
-@media screen and (max-width: 1000px) {}
+@media screen and (max-width: 991px) {
+    .project_card{
+        margin: 40px auto;
+    }
+
+    .img_container{
+        margin-bottom: 40px
+    }
+
+    .text_container .text,
+    .text_container .contacts{
+        text-align: center;
+    }
+
+    .text_container .button_container{
+        display: flex;
+        justify-content: center
+    }
+}
+
+@media screen and (max-width: 820px) {
+    #home .wrapper{
+        width: 80% !important;
+    }
+
+    #home .wrapper>span{
+        font-size: 7vw
+    }
+
+    .dynamicText {
+        font-size: 7vw !important;
+    }
+}
+
+@media screen and (max-width: 659px) {
+    #skills .card_container{
+        padding: 0
+    }
+} 
+
+@media screen and (max-width: 576px) {
+    #aboutMe .text h1{
+        font-size: 50px
+    }
+} 
