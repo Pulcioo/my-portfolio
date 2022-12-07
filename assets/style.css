@@ -14,9 +14,9 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
-.row>* {
+/* .row>* {
     border: 1px solid red
-}
+} */
 
 /* utilities */
 .whitesmoke {
@@ -132,8 +132,96 @@ main {
     height: calc(100vh - 80px);
 }
 
-.hamburger {
+/* hamburger-menu */
+#hamburger_wrapper {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.burger {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 12px;
+}
+
+.burger,
+.burger:before,
+.burger:after {
+    padding: 0;
+    background-color: white;
+    width: 40px;
+    height: 6px;
+    transition: margin .1s .2s, transform .2s;
+}
+
+.burger:before,
+.burger:after {
+    margin: 0;
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.burger:before {
+    margin-top: -12px;
+}
+
+.burger:after {
+    margin-top: 12px;
+}
+
+/* STYLES FOR OUR BURGER WHEN THE MENU OPENS */
+.open .burger {
+    transform: rotate(45deg);
+}
+
+.open .burger,
+.open .burger:before,
+.open .burger:after {
+    transition: margin .2s, transform .1s .2s;
+}
+
+.open .burger:before,
+.open .burger:after {
+    margin-top: 0;
+}
+
+.open .burger:after {
+    transform: rotate(-90deg)
+}
+
+.hamburger_menu {
+    position: absolute;
+    top: 15;
+    left: 0;
     display: none;
+    padding: 20px;
+    width: 100%;
+    height: 100%;
+    min-width: 100vw;
+    min-height: 100vh;
+    background-color: black;
+}
+
+.hamburger_menu ul {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    list-style: none;
+}
+
+.hamburger_menu ul li a {
+    text-decoration: none;
+    color: rgb(222, 249, 20);
+    font-size: 25px;
+    margin-left: 45px;
 }
 
 /* about me */
@@ -307,7 +395,16 @@ main {
         display: none !important;
     }
 
-    .hamburger {
+    #hamburger_wrapper {
+        display: block !important
+    }
+
+    .burger {
+        text-align: end;
+        margin-right: 20px;
+    }
+
+    .hamburger_menu.active {
         display: block;
     }
 }
