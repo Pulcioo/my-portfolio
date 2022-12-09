@@ -145,6 +145,7 @@ main {
     margin-left: auto;
     margin-right: auto;
     margin-top: 12px;
+    cursor: pointer;
 }
 
 .burger,
@@ -212,7 +213,7 @@ main {
     display: flex;
     height: 100%;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: flex-start;
     list-style: none;
 }
@@ -222,6 +223,10 @@ main {
     color: rgb(222, 249, 20);
     font-size: 25px;
     margin-left: 45px;
+}
+
+.nav_links li a:hover {
+    border-bottom: 2px solid rgb(222, 249, 20);
 }
 
 /* about me */
@@ -341,14 +346,6 @@ main {
     transition: transform .1s ease;
 }
 
-.social span {
-    font-size: small;
-}
-
-.social a {
-    margin: 0 5px;
-}
-
 .project_card:hover {
     transform: scale(1.1);
 }
@@ -357,6 +354,19 @@ main {
     color: rgb(222, 249, 20);
 }
 
+/* footer */
+footer {
+    background-color: black;
+    font-size: small;
+}
+
+.social a {
+    margin: 0 8px;
+}
+
+.social i:hover {
+    transform: scale(1.5);
+}
 
 /* text animation */
 @keyframes typing {
